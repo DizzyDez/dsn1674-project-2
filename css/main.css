@@ -90,9 +90,15 @@ nav a {
   text-decoration:none;
   font-size:1em;
 }
-
+a {
+  color:#fff;
+}
+a:hover,
+a:visited:hover {
+  color: #f00;
+}
 a:visited {
-  color: red;
+  color: #e4c22a;
 }
 
 nav li {
